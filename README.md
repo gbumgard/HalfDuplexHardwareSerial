@@ -1,6 +1,8 @@
 # HalfDuplexHardwareSerial
 Arduino library containing class wrapper that adds half-duplex support to HardwareSerial objects.
 
+> *This library should work with USART0/Serial and USART1/Serial1 but has only been tested using USART1/Serial1 on an ATMega32u4 Leonardo. It does not currently support devices that provide USART2/Serial2, USART3/Serial3, etc.*
+
 Existing code can be modified by inserting setDirection() calls. However, this not the best way to use this class (see below):
 
 ```
