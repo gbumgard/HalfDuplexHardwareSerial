@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-BiDiHardwareSerial	KEYWORD1	BiDiHardwareSerial
+HalfDuplexHardwareSerial	KEYWORD1	HalfDuplexHardwareSerial
 
 
 #######################################
