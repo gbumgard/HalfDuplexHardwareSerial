@@ -54,7 +54,7 @@
     USART ## usart ## _PORT |= _BV(USART ## usart ## _TX_PIN); \
     UCSR ## usart ## B |= _BV(TXEN ## usart);
 
-#define USART_N_DISABLE_TX(usart) \
+#define USART_DISABLE_TX(usart) \
     cli(); \
     while ((UCSRA & _BV(TXC)) == 0); \
     UCSRA &= ~(_BV(FE) | _BV(DOR) | _BV(UPE); \
