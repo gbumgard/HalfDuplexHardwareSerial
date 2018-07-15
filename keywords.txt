@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-HalfDuplexHardwareSerial	KEYWORD1	HalfDuplexHardwareSerial
+HalfDuplexHardwareSerial	KEYWORD1
 
 
 #######################################
